@@ -64,10 +64,12 @@ Existem **3 maneiras** de rodar o código:
   Após isso, é necessário rodar a imagem com o comando
   
   ```docker
-  docker run --rm -p 8000:8000 <nomedaimagem>
+  docker run -p 8000:8000 <nomedaimagem>
   ```
   
   No navegador abrar o endereço e a porta escolhidos no momento do docker run: ex: http://localhost:8000
+
+Aqui é interessante comentar que ao rodar o servidor local o código pode alocar mais memória do que a configuração padrão do container Docker. **Portanto, houve a necessidade de alterar uma nova configuração que é o limite de memória para execução do PHP no container Docker** `docker-php-memlimit.ini`. **Nesta configuração optei por desabilitar esse limite de uso de memória.**
   
   ##### Servidor local
   
