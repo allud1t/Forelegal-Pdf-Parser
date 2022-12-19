@@ -51,6 +51,10 @@ Para isso eu precisava subir um servidor. Utilizei o servidor nativo do PHP. Con
 
 ---
 
+**Requisitos Mínimos para execução do código:**
+* PHP versão 7.4 ou superior;
+* Composer versão 2.4.4 ou superior;
+
 Existem **3 maneiras** de rodar o código:
 
 ##### Docker
