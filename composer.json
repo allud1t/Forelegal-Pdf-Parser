@@ -1,0 +1,21 @@
+{
+  "name": "andrecasanova/forelegal-pdf-parser",
+  "description": "Forelegal test project to parse .pdf file data",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "allud1t",
+      "email": "andrefray@gmail.com"
+    }
+  ],
+  "require": {
+    "smalot/pdfparser": "^2.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
